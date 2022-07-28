@@ -37,7 +37,7 @@ module.exports = {
       ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
- | [GitHub](https://github.com/ByAgus314/Java-s-bot-music) | [Dashboard](${client.botconfig.Website}) by [SudhanPlayz]`);
+ | [GitHub](https://github.com/ByAgus314/Java-s-Bot-Music-repo) | [Dashboard](${client.botconfig.Website}) by [SudhanPlayz]`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
