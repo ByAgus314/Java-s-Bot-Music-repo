@@ -70,7 +70,7 @@ module.exports = {
       if (SearchString.match(client.Lavasfy.spotifyPattern)) {
         await client.Lavasfy.requestToken();
         let node = client.Lavasfy.nodes.get(client.botconfig.Lavalink.id);
-        let Searched = await node.load(SearchString);
+        let Searched =  node.load(SearchString);
 
         if (Searched.loadType === "PLAYLIST_LOADED") {
           let songs = [];
